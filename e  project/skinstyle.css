@@ -1,0 +1,421 @@
+
+/* SKIN STORE SITE START HERA */
+/* SKIN STORE SITE START HERA */
+
+
+
+
+/* SKIN STORE SITE END HERA */
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: serif;
+ }
+ .mininav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: whitesmoke;
+ }
+ .eight{
+    color: black;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+ }
+ .eight:hover{
+    background-color: rgb(223, 221, 221);
+ }
+ .save{
+    width: 30px;
+    height: 30px;
+    background-image: url(flagmini.jpg);
+    background-size: cover;
+    border: none;
+    border-radius: 50%;   
+ }
+ .save:hover{
+    background-color: rgb(223, 221, 221);
+ }
+ .mainnav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid black;
+ }
+ .one{
+    text-decoration: none;
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: rgb(22, 22, 22);
+    font-weight: 800;
+ }
+ .search{
+    width: 400px;
+    height: 40px;
+    border: 1px solid rgb(87, 85, 85);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+ }
+ .searchbar{
+    outline: none;
+    border: none;
+    font-size: large;
+ }
+ .accountandcart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    font-size: large;
+ }
+ .acc{
+    text-decoration: none;
+ }
+ .account{
+    display: flex;
+    width: 100px;
+    letter-spacing: 2px;
+ }
+ .cart{
+    display: flex;
+    width: 100px;
+    letter-spacing: 2px;
+ }
+ .newnav{
+   height: 40px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+ .newnavanc{
+    color: rgb(110, 107, 107);
+    text-decoration: none;
+    padding: 8px;
+ }
+ .newnavanc:hover{
+    background-color: black;
+    color: white;
+ }
+ .newmainnav{
+   height: 60px;
+   background-color: rgb(240, 238, 238);
+   margin-bottom: 20px;
+ }
+ .lastnav{
+    height: 40px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .lastnavanc{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+ }
+ .lastnavanc:hover{
+    color: black;
+ }
+ .lastnav:hover{
+    background-color: white;
+    color: black;
+ }
+ .banner{
+    display: flex;
+    margin-bottom: 30px;
+ }
+ .carosel{
+    margin-top: 25px;
+    height: 500px;
+    width: 100%;
+    background-image: url(storebanner.avif);
+    background-size: cover;
+    animation-name: first;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
+ }
+ @keyframes first{
+    0%{
+    background-image: url(storebanner.avif);
+ 
+    }
+ 
+    30%{
+          background-image: url(storebanner2.avif);
+       
+  }
+  
+  100%{
+    background-image: url(storebanner3.avif);
+ 
+    }
+ }
+ /* top brand start */
+ .contant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .brandproduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin-left: 16px;     */
+    margin-right: 16px;
+    margin-bottom: 32px;    
+    margin-top: 40px;    
+ }
+ ul{
+    display: flex;
+ 
+ }
+ li{
+    width: 196px;
+    height: 196px;
+    display: flex;
+    background-size: cover;
+ }
+ .brandimg{
+    width: 100%;
+    overflow: hidden;
+ }
+ /* top brand end */
+ .secbanner{
+    width: 100%;
+    height: 350px;
+    border: 3px solid black;
+    border-radius: 5px;
+ }
+ 
+ .secbannerimg{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+ }
+ /* second banner end */
+ 
+ .best{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+ }
+ .besthead{
+    font-size: xx-large;
+ }
+ .bestproduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+ }
+ .borderone{
+    width: 300px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+ }
+ .bestimg{
+    width: 100%;
+ }
+ .about{
+    margin-top: 20px;
+ }
+ .ancore{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+ }
+ .ancore:hover{
+    color: rgb(126, 186, 209);
+ }
+ .rs{
+    color:  rgb(126, 186, 209);
+    font-weight: 800;
+    padding-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+ }
+ .nextbanner{
+    width: 100%;
+    height: 300px;   
+ }
+ .app{
+   width: 100%;
+   height: 100%;
+ }
+ /* summer area start */
+.mainsummer{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   height: auto;
+   margin-top: 10PX;
+}
+.summerproduct{
+ width: 100%;
+ height: 500px;
+ padding: 10px;
+ justify-content: center;
+ align-items: center;
+
+}
+.summerimg{
+ background-size: cover;
+  width: 100%;
+  height: 300px;
+  pad: 1px;
+}
+.summerancore{
+   text-decoration: none;
+   color: black;
+   font-size: larger;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   padding: 30px;
+}
+.summerbtn{
+   width: 120px;
+   height: 50px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+   background-color: white;
+   border: 2px solid rgb(136, 135, 135);
+}
+button a{
+   text-decoration: none;
+   font-size: larger;
+   color: black;
+}
+.summerbtn:hover{
+   background-color: rgb(189, 218, 208);
+}
+header{
+   text-align: center;
+   padding: 20px;
+   font: 400;
+   font-size: xx-large;
+}
+/* footer start now footer footer */
+.foot{
+   display: flex;
+}
+.footerr{
+ width: 800px;
+ margin-top: 30px;
+ padding: 10px;
+ height: 1600px;
+ background-color: black;
+ color: white;
+}
+.foote{
+width: 590px;
+padding: 10px;
+height: 1600px;
+background-color: black;
+ margin-top: 30px;
+ color: white;
+}
+.textt{
+   color: white;
+}
+h4{
+   margin-left: 60px;
+}
+.lakmelogoo{
+   align-items: center;
+   width: 100%;
+   height: 80px;
+   background-color: black;
+}
+.lakmelogo{
+   margin-left: 550px;
+}
+.tootertag{
+   height: 280px;
+   color: white;
+   background-color: black;
+}
+#aboutlakme{
+   margin-left: 560px;
+   margin-top: 30px;
+}
+.aboutlakme{
+   color: white;
+   margin-left: 20px;
+   margin-right: 10px;
+   padding: 15px 10px 10px;
+}
+.helpcontact{
+   display: flex;
+   justify-content: space-between;
+   background-color: black;
+   color: white;
+   height: 400px;
+}
+.morehelp{
+   margin-left: 35px;
+   font-size: 22px;
+}
+.more{
+   margin-top: 5px;
+   margin-left: 35px;
+   font-weight: 100;
+   font-size: small;
+}
+.lines{
+   height: 1px solid white;
+   margin-left: 35px;  
+   font-size: smaller;
+}
+.account{
+   font-size: 22px;
+   margin-left: 35px;
+}
+#emailicon{
+   font-size: large;
+}
+.more{
+   margin-top: 5px;
+   margin-left: 35px;
+   font-weight: 100;
+   font-size: small;
+}
+
+
+/* footer end now footer footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* summer area start */
+
+ /* footer start *//* footer start */
+ /* footer start *//* footer start */
