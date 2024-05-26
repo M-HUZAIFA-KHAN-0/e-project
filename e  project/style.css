@@ -6,6 +6,8 @@ body{
 }
 .mininav{
    display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
    justify-content: end;
    align-items: center;
    width: 100%;
@@ -36,10 +38,11 @@ body{
 }
 .mainnav{
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-around;
    align-items: center;
-   width: 100%;
-   height: 100px;
+   /* width: 100%; */
+   /* height: 100px; */
    border-bottom: 2px solid black;
 }
 .one{
@@ -84,8 +87,11 @@ body{
    letter-spacing: 2px;
 }
 .newnav{
-  height: 40px;
+  /* height: 40px; */
+  padding: 20px 0px;
   display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
   justify-content: space-around;
   align-items: center;
 }
@@ -218,9 +224,12 @@ i{
 /* drop down settin  */
 
 .sec-nav{
-   height: 100px;
+   /* height: 100px; */
+   padding: 20px 0px;
    background-color: rgba(0, 0, 0, 0.815);
    display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
    justify-content: space-evenly;
    align-items: center;
 }
@@ -346,7 +355,8 @@ h5{
 /* mainmainmainmain////////////////////////////////////////////////////////////////// */
 .images{
    display: flex;
-   
+   flex-wrap: wrap;
+   gap: 20px;
 }
 .main{
    width: 300px;
@@ -428,7 +438,7 @@ h5{
 .shade:hover{
    background-color: rgb(160, 100, 21);
 }
-#btnshade{
+/* #btnshade{
    width: 170px;
    height: 45px;
    background-color: rgb(252, 250, 247);
@@ -439,11 +449,12 @@ h5{
 #btnshade:hover{
    background-color: rgb(253, 242, 237);
 
-}
+} */
 /* mainmainmainmain end end end end end end////////////////////////////////////////////////////////////////// */
 
 .for{
-   height: 140px;
+   /* height: 140px; */
+   padding: 20px 0px;
    justify-content: center;
    align-items: center;
    background-color: black;
@@ -539,7 +550,8 @@ h6{
 }
 .lipstic{
    display: flex;
-   
+   flex-wrap: wrap;
+   gap: 20px;
 }
 .lipproduct{
    width: 300px;
@@ -666,7 +678,7 @@ h6{
 .shade:hover{
    background-color: rgb(160, 100, 21);
 }
-#btnshade{
+/* #btnshade{
    width: 170px;
    height: 45px;
    background-color: rgb(252, 250, 247);
@@ -677,7 +689,7 @@ h6{
 #btnshade:hover{
    background-color: rgb(253, 230, 199);
 
-}
+} */
 /* now end lakeme lipstic area now here */
 /* now end lakeme lipstic area now here */
 /* now end lakeme lipstic area now here */
@@ -685,7 +697,8 @@ h6{
 /* NOW START DEAL AREA */
 .bestdeal{
    display: flex;
-   
+   flex-wrap: wrap;
+   gap: 20px;
 }
 .deal{
    width: 300px;
@@ -777,24 +790,28 @@ h6{
 .shadess:hover{
    background-color: rgb(160, 100, 21);
 }
+.viewAllBtnContainer{
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+}
 #btnshade{
    width: 170px;
    height: 45px;
    background-color: rgb(252, 250, 247);
    border-radius: 40px;
-   margin-left: 600px;
-   margin-top: 20px;
+   /* margin-left: 600px;
+   margin-top: 20px; */
 }
 #btnshade:hover{
    background-color: rgb(253, 230, 199);
-
 }
 /* NOW END DEAL AREA */
 .banner{
    margin-top: 18px;
 }
 .baner{
-   width: 1340px;
+   width: 100%;
    height: 300px;
 }
 /* banner area start */
@@ -803,6 +820,8 @@ h6{
 .categry{
    margin-top: 18px;
    display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
    justify-content: center;
    align-items: center;
    padding: 10px;
@@ -824,6 +843,8 @@ h6{
 }
 .categryitem{
    display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
    justify-content: space-around;
 }
 .base{
@@ -857,6 +878,8 @@ h6{
 }
 .topten{
    display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
    justify-content: center;
    align-items: center;
 }
@@ -926,9 +949,8 @@ h6{
 /*  new and third banner start */
 .newbannerimg{
    height: 500px;
-   text-align: center;
-   width: 1320px;
-   margin-left: 15px;
+   width: 100%;
+   
 }
 /*  new and third banner end */
 
@@ -951,6 +973,8 @@ align-items: center;
 }
 .mainskinarea{
    display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
    justify-content: space-between;
    align-items: center;
 }
@@ -1009,6 +1033,8 @@ align-items: center;
 /* recommended start */
 .bestdealflex{
    display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
    justify-content: center;
    align-items: center;
 }
@@ -1056,6 +1082,7 @@ align-items: center;
  .join{
    display: flex;
    flex-wrap: wrap;
+   gap: 20px;
 }
 .club{
    width: 180px;
@@ -1292,45 +1319,6 @@ h4{
    margin-top: 15px;
 }
 /* BLOG AREA END */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
